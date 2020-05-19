@@ -1,0 +1,11 @@
+[
+  { "ParameterKey": "ParamStackName",         "ParameterValue": "Simple-Web" },
+  { "ParameterKey": "ParamNotificationEmail", "ParameterValue": "nara.awsarchitect@gmail.com" },
+  { "ParameterKey": "ParamVpcStackName",      "ParameterValue": "simple-web-v11" },
+  { "ParameterKey": "ParamVpcCidr",           "ParameterValue": "172.16.0.0/16" },
+  { "ParameterKey": "ParamSubnetWeb",         "ParameterValue": "172.16.0.0/24" },
+  { "ParameterKey": "ParamAccessKey",         "ParameterValue": "rke-mmt" },
+  { "ParameterKey": "ParamEC2Tag",            "ParameterValue": "rke-mmt" },
+  { "ParameterKey": "ParamImageId",           "ParameterValue": "ami-07a3bd4944eb120a0" },
+  { "ParameterKey": "ParamInstanceType",      "ParameterValue": "t2.micro" }
+]
