@@ -171,7 +171,7 @@ Resources:
                   aws_access_key_id = 
                   aws_secret_access_key = 
           runcmd:
-            - [ git, clone, 'https://github.com/comunet-ngaddam/rke.git', /opt/rancher-standalone ]
+            - [ git, clone, 'https://github.com/comunet-ngaddam/rke-mmt.git', /opt/rancher-standalone ]
             - [ chmod, -R, 700, /opt/rancher-standalone/include ]
             - [ /opt/rancher-standalone/include/deploy.sh ]
           users:
